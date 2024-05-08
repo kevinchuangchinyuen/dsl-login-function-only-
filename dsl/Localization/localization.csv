@@ -1,0 +1,548 @@
+id,en,zh-HK,zh-Hant,zh-Hans
+Header.HKPF,Hong Kong Police Force,香港警務處,香港警務處,香港警务处
+Header.DigitalServicesLogon,Digital Services Logon,數碼服務登入,數碼服務登入,数码服务登入
+login.DigitalServicesLogon,HKPF Digital Services Logon,香港警務處數碼服務登入,香港警務處數碼服務登入,香港警务处数码服务登入
+login.Login,Login,登入,登入,登入
+login.YourEmail,Your Email,您的電郵地址,您的電郵地址,您的电邮地址
+login.Password,Password,密碼,密碼,密码
+login.Register,Register,新用戶註冊,新用戶註冊,新用户注册
+login.ForgotPassword,Forgot Password,忘記密碼,忘記密碼,忘记密码
+login.YouCanAlsoLoginWith,You can also login with,您也可以使用以下方式登錄,您也可以使用以下方式登錄,您也可以使用以下方式登录
+login.Or,OR,或,或,或
+login.MoreInfo,More Info,了解更多,了解更多,了解更多
+login.Biometric,Login with biometric,登入,生物辨識登入,生物识别登入
+login.BiometricNew.text1,Login with ,,,
+login.BiometricNew.text2,, 登入, 登入, 登入
+login.iamSmart,Login with iAM Smart,智方便登入,智方便登入,智方便登入
+login.Enquiry,Enquiry,查詢,查詢,查询
+login.EmailError1,Please enter your email.,請輸入您的電郵。,請輸入您的電郵。,请输入您的电邮。 
+login.EmailError2,You have entered an invalid email address. Please try again. ,您輸入的電郵地址無效，請重新輸入。 ,您輸入的電郵地址無效，請重新輸入。 ,您输入的电邮地址无效，请重新输入。 
+login.PasswordError1,Please enter your password. ,請輸入您的密碼。 ,請輸入您的密碼。 ,请输入您的密码。
+login.PostError1,You have entered an invalid email address or incorrect password. Please try again.,您輸入的電郵地址或密碼錯誤，請再試一遍。,您輸入的電郵地址或密碼錯誤，請再試一遍。,您输入的电邮地址或密码错误，请再试一遍。
+,,,,
+Menu,Menu,選單,選單,选单
+Setting,Setting,設置,設置,设置
+Important Notices,Important Notices,重要告示,重要告示,重要告示
+Privacy Policy,Privacy Policy,私隱政策,私隱政策,私隐政策
+FAQs,FAQs,常見問題,常見問題,常见问题
+Accessibility Design,Accessibility Design,無障礙設計,無障礙設計,无障碍设计
+AccessibilityDesign.text,"This mobile app has been incorporated with accessibility design as appropriate. Should you 
+any enquires or comments on its accessibility, please contact us by phone at 8226 1886 or email at equiry@police.gov.hk.",本移動應用程式已根據需要融入無障礙設計。如對其無障礙功能有任何疑問或意見，請透過電話 8226 1886 或電子郵件 equiry@police.gov.hk 與我們聯繫。 ,本移動應用程式已根據需要融入無障礙設計。如對其無障礙功能有任何疑問或意見，請透過電話 8226 1886 或電子郵件 equiry@police.gov.hk 與我們聯繫。 ,本移动应用程式已根据需要融入无障碍设计。 如对其无障碍功能有任何疑问或意见，请透过电话 8226 1886 或电子邮件 equiry@police.gov.hk 与我们联系。
+About This App,About This App,關於本程式,關於本程式,关于本程式
+AboutThisApp.text,"The Hong Kong Police Force - The Government of the Hong Kong Special Administrative Region
+Digital Services Logon App","香港警務處 - 香港特別行政區政府
+數碼服務登入應用程式","香港警務處 - 香港特別行政區政府
+數碼服務登入應用程式","香港警务处 - 香港特别行政区政府
+数字服务登录应用程序"
+Logout,Logout,登出,登出,登出
+Home,Home,主頁,主頁,主页
+Account Management,Account Management,帳戶管理,帳戶管理,账户管理
+Profile Update,Profile Update,用戶資料更新,用戶資料更新,用户资料更新
+Change Password,Change Password,用戶更改密碼,用戶更改密碼,用户更改密码
+Account Deletion,Account Deletion,用戶帳戶刪除,用戶帳戶刪除,用户帐户删除
+Account Link Up,Account Link Up,帳戶連結,帳戶連結,账户连接
+,,,,
+Setting.Languagetoused,Language to used,使用的語言,使用的語言,使用的语言
+Setting.BiometricAuthentication,Biometric Authentication,生物辨識驗證,生物辨識驗證,生物识别验证
+Setting.BiometricAuthenticationNotAllow.text,You have completed biometric enrollment on this device by using another accounts.,您已使用其他帳戶在此裝置上完成生物辨識註冊。,您已使用其他帳戶在此裝置上完成生物辨識註冊。,您已使用其他帐户在此设备上完成生物识别注册。
+,,,,
+ServerErrorMessage,"Failed to connect to server, please try again later. ",連接伺服器失敗，請稍後重試。,連接伺服器失敗，請稍後重試。,连接服务器失败，请稍后重试。
+,,,,
+BiometricNotEnabled.text1,Biometric is not enabled on this device,此設備未啟用生物辨識,此設備未啟用生物辨識,此设备未启用生物识别
+BiometricNotEnabled.text2,Please login and enable biometric,請登錄並啟用生物辨識,請登錄並啟用生物辨識,请登录并启用生物识别
+BiometricNotEnabled.button1,Return to login page,返回登錄頁面,返回登錄頁面,返回登录页面
+BiometricRecordChanged.Text1,Biometric record has been changed,生物辨識記錄已更改,生物辨識記錄已更改,生物识别记录已更改
+BiometricRecordChanged.Text2,Please login and enable biometric again,請重新登錄並啟用生物辨識,請重新登錄並啟用生物辨識,请重新登录并启用生物识别
+BiometricRecordChanged.Button1,Return to login page,返回登錄頁面,返回登錄頁面,返回登录页面
+BiometricRevoked.text,Your device biometric enrollment has been revoked.,您的裝置生物辨識註冊已被撤銷。,您的裝置生物辨識註冊已被撤銷。,您的设备生物识别注册已被撤销。
+,,,,
+--- Area of Residence ---,--- Area of Residence ---,--- 居住地區 ---,--- 居住地區 ---,--- 居住地区 ---
+--- Country ---,--- Country ---,--- 國家 —,--- 國家 ---,--- 国家 ---
+--- Area Code ---,--- Area Code ---,--- 區號 ---,--- 區號 ---,--- 区号 ---
+The Mainland of China,The Mainland of China,中國內地,中國內地,中国内地
+"Hong Kong, China","Hong Kong, China",中國香港,中國香港,中国香港
+"Macao, China","Macao, China",中國澳門,中國澳門,中国澳门
+"Taiwan, China","Taiwan, China",中國台灣,中國台灣,中国台湾
+Afghanistan,Afghanistan,阿富汗,阿富汗,阿富汗
+Albania,Albania,阿爾巴尼亞,阿爾巴尼亞,阿尔巴尼亚
+Algeria,Algeria,阿爾及利亞,阿爾及利亞,阿尔及利亚
+Andorra,Andorra,安道爾,安道爾,安道尔
+Angola,Angola,安哥拉,安哥拉,安哥拉
+Antarctica,Antarctica,南極洲,南極洲,南极洲
+Argentina,Argentina,阿根廷,阿根廷,阿根廷
+Armenia,Armenia,亞美尼亞,亞美尼亞,亚美尼亚
+Aruba,Aruba,阿魯巴島,阿魯巴島,阿鲁巴岛
+Australia,Australia,澳大利亞,澳大利亞,澳大利亚
+Austria,Austria,奧地利,奧地利,奥地利
+Azerbaijan,Azerbaijan,阿塞拜疆,阿塞拜疆,阿塞拜疆
+Bahrain,Bahrain,巴林,巴林,巴林
+Bangladesh,Bangladesh,孟加拉國,孟加拉國,孟加拉国
+Belarus,Belarus,白俄羅斯,白俄羅斯,白俄罗斯
+Belgium,Belgium,比利時,比利時,比利时
+Belize,Belize,伯利茲,伯利茲,伯利兹
+Benin,Benin,貝寧,貝寧,贝宁
+Bhutan,Bhutan,不丹,不丹,不丹
+Bolivia,Bolivia,玻利維亞,玻利維亞,玻利维亚
+Bosnia and Herzegovina,Bosnia and Herzegovina,波斯尼亞和黑塞哥維那,波斯尼亞和黑塞哥維那,波斯尼亚和黑塞哥维那
+Botswana,Botswana,博茨瓦納,博茨瓦納,博茨瓦纳
+Brazil,Brazil,巴西,巴西,巴西
+British Indian Ocean Territory,British Indian Ocean Territory,英屬印度洋領地,英屬印度洋領地,英属印度洋领地
+Brunei,Brunei,文萊,文萊,文莱
+Bulgaria,Bulgaria,保加利亞,保加利亞,保加利亚
+Burkina Faso,Burkina Faso,布基納法索,布基納法索,布基纳法索
+Burundi,Burundi,布隆迪,布隆迪,布隆迪
+Cambodia,Cambodia,柬埔寨,柬埔寨,柬埔寨
+Cameroon,Cameroon,喀麥隆,喀麥隆,喀麦隆
+Canada,Canada,加拿大,加拿大,加拿大
+Cape Verde,Cape Verde,佛得角,佛得角,佛得角
+Central African Republic,Central African Republic,中非共和國,中非共和國,中非共和国
+Chad,Chad,乍得,乍得,乍得
+Chile,Chile,智利,智利,智利
+Christmas Island,Christmas Island,聖誕島,聖誕島,圣诞岛
+Cocos Islands,Cocos Islands,科科斯群島,科科斯群島,科科斯群岛
+Colombia,Colombia,哥倫比亞,哥倫比亞,哥伦比亚
+Comoros,Comoros,科摩羅,科摩羅,科摩罗
+Cook Islands,Cook Islands,庫克群島,庫克群島,库克群岛
+Costa Rica,Costa Rica,哥斯達黎加,哥斯達黎加,哥斯达黎加
+Croatia,Croatia,克羅地亞,克羅地亞,克罗地亚
+Cuba,Cuba,古巴,古巴,古巴
+Curacao,Curacao,庫拉索,庫拉索,库拉索
+Cyprus,Cyprus,塞浦路斯,塞浦路斯,塞浦路斯
+Czech Republic,Czech Republic,捷克共和國,捷克共和國,捷克共和国
+Democratic Republic of the Congo,Democratic Republic of the Congo,剛果民主共和國,剛果民主共和國,刚果民主共和国
+Denmark,Denmark,丹麥,丹麥,丹麦
+Djibouti,Djibouti,吉布提,吉布提,吉布提
+East Timor,East Timor,東帝汶,東帝汶,东帝汶
+Ecuador,Ecuador,厄瓜多爾,厄瓜多爾,厄瓜多尔
+Egypt,Egypt,埃及,埃及,埃及
+El Salvador,El Salvador,薩爾瓦多,薩爾瓦多,萨尔瓦多
+Equatorial Guinea,Equatorial Guinea,赤道幾內亞,赤道幾內亞,赤道几内亚
+Eritrea,Eritrea,厄立特里亞,厄立特里亞,厄立特里亚
+Estonia,Estonia,愛沙尼亞,愛沙尼亞,爱沙尼亚
+Ethiopia,Ethiopia,埃塞俄比亞,埃塞俄比亞,埃塞俄比亚
+Falkland Islands,Falkland Islands,福克蘭群島,福克蘭群島,福克兰群岛
+Faroe Islands,Faroe Islands,法羅群島,法羅群島,法罗群岛
+Fiji,Fiji,斐濟,斐濟,斐济
+Finland,Finland,芬蘭,芬蘭,芬兰
+France,France,法國,法國,法国
+French Polynesia,French Polynesia,法屬波利尼西亞,法屬波利尼西亞,法属波利尼西亚
+Gabon,Gabon,加蓬,加蓬,加蓬
+Gambia,Gambia,岡比亞,岡比亞,冈比亚
+Georgia,Georgia,喬治亞州,喬治亞州,乔治亚州
+Germany,Germany,德國,德國,德国
+Ghana,Ghana,加納,加納,加纳
+Gibraltar,Gibraltar,直布羅陀,直布羅陀,直布罗陀
+Greece,Greece,希臘,希臘,希腊
+Greenland,Greenland,格陵蘭,格陵蘭,格陵兰
+Guatemala,Guatemala,危地馬拉,危地馬拉,危地马拉
+Guinea,Guinea,幾內亞,幾內亞,几内亚
+Guinea-Bissau,Guinea-Bissau,幾內亞比紹,幾內亞比紹,几内亚比绍
+Guyana,Guyana,圭亞那,圭亞那,圭亚那
+Haiti,Haiti,海地,海地,海地
+Honduras,Honduras,洪都拉斯,洪都拉斯,洪都拉斯
+Hungary,Hungary,匈牙利,匈牙利,匈牙利
+Iceland,Iceland,冰島,冰島,冰岛
+India,India,印度,印度,印度
+Indonesia,Indonesia,印度尼西亞,印度尼西亞,印度尼西亚
+Iran,Iran,伊朗,伊朗,伊朗
+Iraq,Iraq,伊拉克,伊拉克,伊拉克
+Ireland,Ireland,愛爾蘭,愛爾蘭,爱尔兰
+Israel,Israel,以色列,以色列,以色列
+Italy,Italy,意大利,意大利,意大利
+Ivory Coast,Ivory Coast,象牙海岸,象牙海岸,象牙海岸
+Jamaica,Jamaica,牙買加,牙買加,牙买加
+Japan,Japan,日本,日本,日本
+Jordan,Jordan,約旦,約旦,约旦
+Kazakhstan,Kazakhstan,哈薩克斯坦,哈薩克斯坦,哈萨克斯坦
+Kenya,Kenya,肯尼亞,肯尼亞,肯尼亚
+Kiribati,Kiribati,基里巴斯,基里巴斯,基里巴斯
+Korea (South),Korea (South),南韓(大韓民國),南韓(大韓民國),南韩(大韩民国)
+Kosovo,Kosovo,科索沃,科索沃,科索沃
+Kuwait,Kuwait,科威特,科威特,科威特
+Kyrgyzstan,Kyrgyzstan,吉爾吉斯斯坦,吉爾吉斯斯坦,吉尔吉斯斯坦
+Laos,Laos,老撾,老撾,老挝
+Latvia,Latvia,拉脫維亞,拉脫維亞,拉脱维亚
+Lebanon,Lebanon,黎巴嫩,黎巴嫩,黎巴嫩
+Lesotho,Lesotho,萊索托,萊索托,莱索托
+Liberia,Liberia,利比里亞,利比里亞,利比里亚
+Libya,Libya,利比亞,利比亞,利比亚
+Liechtenstein,Liechtenstein,列支敦士登,列支敦士登,列支敦士登
+Lithuania,Lithuania,立陶宛,立陶宛,立陶宛
+Luxembourg,Luxembourg,盧森堡,盧森堡,卢森堡
+Macedonia,Macedonia,馬其頓,馬其頓,马其顿
+Madagascar,Madagascar,馬達加斯加,馬達加斯加,马达加斯加
+Malawi,Malawi,馬拉維,馬拉維,马拉维
+Malaysia,Malaysia,馬來西亞,馬來西亞,马来西亚
+Maldives,Maldives,馬爾代夫,馬爾代夫,马尔代夫
+Mali,Mali,馬里,馬里,马里
+Malta,Malta,馬耳他,馬耳他,马耳他
+Marshall Islands,Marshall Islands,馬紹爾群島,馬紹爾群島,马绍尔群岛
+Mauritania,Mauritania,毛里塔尼亞,毛里塔尼亞,毛里塔尼亚
+Mauritius,Mauritius,毛里求斯,毛里求斯,毛里求斯
+Mayotte,Mayotte,馬約特島,馬約特島,马约特岛
+Mexico,Mexico,墨西哥,墨西哥,墨西哥
+Micronesia,Micronesia,密克羅尼西亞,密克羅尼西亞,密克罗尼西亚
+Moldova,Moldova,摩爾多瓦,摩爾多瓦,摩尔多瓦
+Monaco,Monaco,摩納哥,摩納哥,摩纳哥
+Mongolia,Mongolia,蒙古,蒙古,蒙古
+Montenegro,Montenegro,黑山,黑山,黑山
+Morocco,Morocco,摩洛哥,摩洛哥,摩洛哥
+Mozambique,Mozambique,莫桑比克,莫桑比克,莫桑比克
+Myanmar,Myanmar,緬甸,緬甸,缅甸
+Namibia,Namibia,納米比亞,納米比亞,纳米比亚
+Nauru,Nauru,瑙魯,瑙魯,瑙鲁
+Nepal,Nepal,尼泊爾,尼泊爾,尼泊尔
+Netherlands,Netherlands,荷蘭,荷蘭,荷兰
+Netherlands Antilles,Netherlands Antilles,荷屬安的列斯,荷屬安的列斯,荷属安的列斯
+New Caledonia,New Caledonia,新喀裡多尼亞,新喀裡多尼亞,新喀里多尼亚
+New Zealand,New Zealand,新西蘭,新西蘭,新西兰
+Nicaragua,Nicaragua,尼加拉瓜,尼加拉瓜,尼加拉瓜
+Niger,Niger,尼日爾,尼日爾,尼日尔
+Nigeria,Nigeria,尼日利亞,尼日利亞,尼日利亚
+Niue,Niue,紐埃,紐埃,纽埃
+North Korea,North Korea,北朝鮮,北朝鮮,北朝鲜
+Norway,Norway,挪威,挪威,挪威
+Oman,Oman,阿曼,阿曼,阿曼
+Pakistan,Pakistan,巴基斯坦,巴基斯坦,巴基斯坦
+Palau,Palau,帕勞,帕勞,帕劳
+Palestine (States Of),Palestine (States Of),巴勒斯坦（國）,巴勒斯坦（國）,巴勒斯坦（国）
+Panama,Panama,巴拿馬,巴拿馬,巴拿马
+Papua New Guinea,Papua New Guinea,巴布亞新幾內亞,巴布亞新幾內亞,巴布亚新几内亚
+Paraguay,Paraguay,巴拉圭,巴拉圭,巴拉圭
+Peru,Peru,秘魯,秘魯,秘鲁
+Philippines,Philippines,菲律賓,菲律賓,菲律宾
+Poland,Poland,波蘭,波蘭,波兰
+Portugal,Portugal,葡萄牙,葡萄牙,葡萄牙
+Qatar,Qatar,卡塔爾,卡塔爾,卡塔尔
+Republic of the Congo,Republic of the Congo,剛果共和國,剛果共和國,刚果共和国
+Reunion,Reunion,團圓,團圓,团圆
+Romania,Romania,羅馬尼亞,羅馬尼亞,罗马尼亚
+Russia,Russia,俄羅斯,俄羅斯,俄罗斯
+Rwanda,Rwanda,盧旺達,盧旺達,卢旺达
+Saint Barthelemy,Saint Barthelemy,聖巴泰勒米,聖巴泰勒米,圣巴泰勒米
+Saint Helena,Saint Helena,聖海倫娜,聖海倫娜,圣海伦娜
+Saint Martin,Saint Martin,聖馬丁,聖馬丁,圣马丁
+Saint Pierre and Miquelon,Saint Pierre and Miquelon,聖皮埃爾和密克隆,聖皮埃爾和密克隆,圣皮埃尔和密克隆
+Samoa,Samoa,薩摩亞,薩摩亞,萨摩亚
+San Marino,San Marino,聖馬力諾,聖馬力諾,圣马力诺
+Sao Tome and Principe,Sao Tome and Principe,聖多美和普林西比,聖多美和普林西比,圣多美和普林西比
+Saudi Arabia,Saudi Arabia,沙特阿拉伯,沙特阿拉伯,沙特阿拉伯
+Senegal,Senegal,塞內加爾,塞內加爾,塞内加尔
+Serbia,Serbia,塞爾維亞,塞爾維亞,塞尔维亚
+Seychelles,Seychelles,塞舌爾,塞舌爾,塞舌尔
+Sierra Leone,Sierra Leone,塞拉利昂,塞拉利昂,塞拉利昂
+Singapore,Singapore,新加坡,新加坡,新加坡
+Slovak Republic,Slovak Republic,斯洛伐克共和國,斯洛伐克共和國,斯洛伐克共和国
+Slovenia Republic,Slovenia Republic,斯洛文尼亞共和國,斯洛文尼亞共和國,斯洛文尼亚共和国
+Solomon Islands,Solomon Islands,所羅門群島,所羅門群島,所罗门群岛
+Somalia,Somalia,索馬里,索馬里,索马里
+South Africa,South Africa,南非,南非,南非
+South Sudan,South Sudan,南蘇丹,南蘇丹,南苏丹
+Spain,Spain,西班牙,西班牙,西班牙
+Sri Lanka,Sri Lanka,斯里蘭卡,斯里蘭卡,斯里兰卡
+Sudan,Sudan,蘇丹,蘇丹,苏丹
+Suriname,Suriname,蘇里南,蘇里南,苏里南
+Svalbard and Jan Mayen,Svalbard and Jan Mayen,斯瓦爾巴和揚馬延,斯瓦爾巴和揚馬延,斯瓦尔巴和扬马延
+Swaziland,Swaziland,斯威士蘭,斯威士蘭,斯威士兰
+Sweden,Sweden,瑞典,瑞典,瑞典
+Switzerland,Switzerland,瑞士,瑞士,瑞士
+Syria,Syria,敘利亞,敘利亞,叙利亚
+Tajikistan,Tajikistan,塔吉克斯坦,塔吉克斯坦,塔吉克斯坦
+Tanzania,Tanzania,坦桑尼亞,坦桑尼亞,坦桑尼亚
+Thailand,Thailand,泰國,泰國,泰国
+Togo,Togo,多哥,多哥,多哥
+Tokelau,Tokelau,托克勞,托克勞,托克劳
+Tonga,Tonga,湯加,湯加,汤加
+Tunisia,Tunisia,突尼斯,突尼斯,突尼斯
+Turkey,Turkey,土耳其,土耳其,土耳其
+Turkmenistan,Turkmenistan,土庫曼斯坦,土庫曼斯坦,土库曼斯坦
+Tuvalu,Tuvalu,圖瓦盧,圖瓦盧,图瓦卢
+U.S.A.,U.S.A.,美國,美國,美国
+U.S.A. - Guam,U.S.A. - Guam,美國 - 關島,美國 - 關島,美国 - 关岛
+Uganda,Uganda,烏干達,烏干達,乌干达
+Ukraine,Ukraine,烏克蘭,烏克蘭,乌克兰
+United Arab Emirates,United Arab Emirates,阿拉伯聯合酋長國,阿拉伯聯合酋長國,阿拉伯联合酋长国
+United Kingdom,United Kingdom,英國,英國,英国
+Uruguay,Uruguay,烏拉圭,烏拉圭,乌拉圭
+Uzbekistan,Uzbekistan,烏茲別克斯坦,烏茲別克斯坦,乌兹别克斯坦
+Vanuatu,Vanuatu,瓦努阿圖,瓦努阿圖,瓦努阿图
+Vatican,Vatican,教廷,教廷,教廷
+Venezuela,Venezuela,委內瑞拉,委內瑞拉,委内瑞拉
+Vietnam,Vietnam,越南,越南,越南
+Wallis and Futuna,Wallis and Futuna,瓦利斯群島和富圖納群島,瓦利斯群島和富圖納群島,瓦利斯群岛和富图纳群岛
+Western Sahara,Western Sahara,撒哈拉沙漠西部,撒哈拉沙漠西部,撒哈拉沙漠西部
+Yemen,Yemen,也門,也門,也门
+Zambia,Zambia,贊比亞,贊比亞,赞比亚
+Zimbabwe,Zimbabwe,津巴布韋,津巴布韋,津巴布韦
+,,,,
+--- Document Type ---,--- Document Type ---,--- 身份證明文件類型 --- ,--- 身份證明文件類型 --- ,--- 身份证明文件类型 ---
+HKID,HKID,香港身份證號碼,香港身份證號碼,香港身份证号码
+Birth Certificate,Birth Certificate,出生證明,出生證明,出生证明
+Certificate of Entitlement to the Right of Abode in the HK SAR,Certificate of Entitlement to the Right of Abode in the HK SAR,香港特別行政區居留權證明書,香港特別行政區居留權證明書,香港特别行政区居留权证明书
+Certificate of Identity,Certificate of Identity,身份證明書,身份證明書,身份证明书
+Chinese Fisherman Certificate of Permit,Chinese Fisherman Certificate of Permit,中國漁民許可證書,中國漁民許可證書,中国渔民许证书
+Chinese Identity Card,Chinese Identity Card,中國身份證,中國身份證,中国身份证
+Chinese One-way Entry Permit,Chinese One-way Entry Permit,中國單程證,中國單程證,中国单程证
+Chinese Travel Permit,Chinese Travel Permit,中國旅行證,中國旅行證,中国旅行证
+Chinese Two-way Entry Permit,Chinese Two-way Entry Permit,往來港澳通行證,往來港澳通行證,往来港澳通行证
+Chinese Two-way Entry Permit(Taiwan Travel),Chinese Two-way Entry Permit(Taiwan Travel),中國往返通行證(台灣旅遊),中國往返通行證(台灣旅遊),中国往返通行证(台湾旅游)
+Hong Kong Re-Entry Permit,Hong Kong Re-Entry Permit,香港回港證,香港回港證,香港回港证
+Macau Identity Card,Macau Identity Card,澳門身份證,澳門身份證,澳门身份证
+Passport,Passport,護照,護照,护照
+People's Liberation Army Identity Card,People's Liberation Army Identity Card,中國人民解放軍身份證,中國人民解放軍身份證,中国人民解放军身份证
+Recognizance,Recognizance,臨時身份證明書,臨時身份證明書,临时身份证明书
+VALID-PRC DRIVERS,VALID-PRC DRIVERS,中國駕駛證,中國駕駛證,中国驾驭证
+Vietnamese Refugee Card,Vietnamese Refugee Card,越南難民卡,越南難民卡,越南难民卡
+,,,,
+--- Occupation ---,--- Occupation ---,--- 職業  ---,--- 職業  ---,--- 职业   ---
+"Agriculture, forestry and fishing","Agriculture, forestry and fishing",農林漁業,農林漁業,农林渔业
+Mining and quarrying,Mining and quarrying,採礦和採石,採礦和採石,采矿和采石
+Manufacturing,Manufacturing,製造業,製造業,制造业
+Electricity and gas supply,Electricity and gas supply,電力和天然氣供應,電力和天然氣供應,电力和天然气供应
+"Water supply, sewerage, waste management and remediation activities","Water supply, sewerage, waste management and remediation activities",供水、污水處理、廢物管理和補救活動,供水、污水處理、廢物管理和補救活動,供水、污水处理、废物管理和补救活动
+Construction,Construction,建造,建造,建造
+"Import/export, wholesale and retail trades","Import/export, wholesale and retail trades",進出口、批發和零售貿易,進出口、批發和零售貿易,进出口、批发和零售贸易
+"Transportation, storage, postal and courier services","Transportation, storage, postal and courier services",運輸、倉儲、郵政和快遞服務,運輸、倉儲、郵政和快遞服務,运输、仓储、邮政和快递服务
+Accommodation and food service activities,Accommodation and food service activities,住宿和餐飲服務活動,住宿和餐飲服務活動,住宿和餐饮服务活动
+Information and communications,Information and communications,信息和通信,信息和通信,信息和通讯
+Financial and insurance activities,Financial and insurance activities,金融和保險活動,金融和保險活動,金融和保险活动
+Real estate activities,Real estate activities,房地產活動,房地產活動,房地产活动
+"Professional, scientific and technical activities","Professional, scientific and technical activities",專業、科學和技術活動,專業、科學和技術活動,专业、科学和技术活动
+Administrative and support service activities,Administrative and support service activities,行政和支持服務活動,行政和支持服務活動,行政和支持服务活动
+Public administration,Public administration,公共行政,公共行政,公共行政
+Education,Education,教育,教育,教育
+Human health and social work activities,Human health and social work activities,人類健康和社會工作活動,人類健康和社會工作活動,人类健康和社会工作活动
+"Arts, entertainment and recreation","Arts, entertainment and recreation",藝術、娛樂和休閒,藝術、娛樂和休閒,艺术、娱乐和休闲
+Other service activities,Other service activities,其他服務活動,其他服務活動,其他服务活动
+Work activities within domestic households,Work activities within domestic households,家庭內的工作活動,家庭內的工作活動,家庭内的工作活动
+Activities of extraterritorial organisations and bodies,Activities of extraterritorial organisations and bodies,域外組織和機構的活動,域外組織和機構的活動,域外组织和机构的活动
+,,,,
+--- Gender ---,--- Gender ---,--- 性别 ---,--- 性别 ---,--- 性别 ---
+Male,Male,男,男,男
+Female,Female,女,女,女
+,,,,
+Register.Title1,User Registration,用戶註冊,用戶註冊,用户注册
+Register.Text1,You must fill in the fields with an asterisk,您必須填寫標有星號,您必須填寫標有星號,您必须填写标有星号
+Register.Text2,,之欄位或部分,之欄位或部分,之栏位或部分
+Register.Label1,Email:,電郵:,電郵:,电邮:
+Register.Label2,Password:,密碼:,密碼:,密码:
+Register.Label3,Confirm Password:,確認密碼:,確認密碼:,确认密码:
+Register.Label4,Last Name:,英文姓氏:,英文姓氏:,英文姓氏:
+Register.Label5,First Name:,英文名字:,英文名字:,英文名字:
+Register.Label6,Mobile Number:,手機號碼:,手機號碼:,手机号码:
+Register.Label7,Chinese Name:,中文名稱:,中文名稱:,中文名称:
+Register.Label8,Identity Document:,身份證明文件:,身份證明文件:,身份证明文件:
+Register.Label9a,Identity Document ID:,身份證明文件號碼:,身份證明文件號碼:,身份证明文件号码:
+Register.Label9b,HKID Number:,香港身份證號碼:,香港身份證號碼:,香港身份证号码:
+Register.Label10,Date of Birth:,出生日期:,出生日期:,出生日期:
+Register.Label11,Gender:,性別:,性別:,性别:
+Register.Label12,Address:,地址:,地址:,地址:
+Register.Label13,Area of Residence:,居住地區:,居住地區:,居住地区:
+Register.Label14,Company:,公司:,公司:,公司:
+Register.Label15,Post:,職位:,職位:,职位:
+Register.Label16,Occupation:,職業:,職業:,职业:
+Register.Button,Register,註冊,註冊,注册
+,,,,
+Register.Placeholder1,Enter email,輸入電郵,輸入電郵,输入电邮
+Register.Placeholder2,Enter password,輸入密碼,輸入密碼,输入密码
+Register.Placeholder3,Enter confirm password,輸入確認密碼,輸入確認密碼,输入确认密码
+Register.Placeholder4,Enter last name,輸入英文姓氏,輸入英文姓氏,输入英文姓氏
+Register.Placeholder5,Enter first name,輸入英文名字,輸入英文名字,输入英文名字
+Register.Placeholder6,Enter mobile number,輸入手機號碼,輸入手機號碼,输入手机号码
+Register.Placeholder7,Enter chinese name,輸入中文名稱,輸入中文名稱,输入中文名称
+Register.Placeholder8,Enter identity document ID,輸入身份證明文件號碼,輸入身份證明文件號碼,输入身份证明文件号码
+Register.Placeholder9,Enter address,輸入地址,輸入地址,输入地址
+Register.Placeholder10,Enter company,輸入公司,輸入公司,输入公司
+Register.Placeholder11,Enter post,輸入職位,輸入職位,输入职位
+Register.Placeholder12,Enter verification code,輸入驗證碼,輸入驗證碼,输入验证码
+Register.Placeholder13,yyyy-mm-dd,年-月-日,年-月-日,年-月-日
+,,,,
+Register.email.pre.error1,You have entered an invalid email address. Please try again.,您輸入的電郵地址無效，請重新輸入。,您輸入的電郵地址無效，請重新輸入。,您输入的电邮地址无效，请重新输入。
+Register.email.pre.error2,Email address has already been used. Please enter another one.,電郵地址已被使用，請輸入另一個。,電郵地址已被使用，請輸入另一個。,电邮地址已被使用，请输入另一个。
+Register.email.pre.error3,Please enter your email.,請輸入您的電郵。,請輸入您的電郵。,请输入您的电邮。
+Register.email.pre.error4,"Your provided email has not been verified yet. Please tap \""Verify\"" to receive a verification code email and input the verification code.",您提供的電郵地址尚未通過驗證，請按「驗證」收取驗證碼電郵並輸入該驗證碼。,您提供的電郵地址尚未通過驗證，請按「驗證」收取驗證碼電郵並輸入該驗證碼。,您提供的电邮地址尚未通过验证，请按「验证」收取验证码电邮并输入该验证码。
+Register.password.pre.error1,Please enter your password.,請輸入您的密碼。,請輸入您的密碼。,请输入您的密码。
+Register.password.pre.error2,At least 8 characters,至少 8 個字符,至少 8 個字符,至少 8 个字符
+Register.password.pre.error3,At least 1 mixed-case alphabetic character,至少 1 個大小寫混合的字母字符,至少 1 個大小寫混合的字母字符,至少 1 个大小写混合的字母字符
+Register.password.pre.error4,At least 1 numeric character,至少 1 個數字字符,至少 1 個數字字符,至少 1 个数字字符
+Register.password.pre.error5,At least 1 special character,至少 1 個特殊字符,至少 1 個特殊字符,至少 1 个特殊字符
+Register.confirmpassword.pre.error1,Please enter your confirm password.,請輸入您的確認密碼。,請輸入您的確認密碼。,请输入您的确认密码。
+Register.confirmpassword.pre.error2,Password and Confirm Password do not match. Please try again.,密碼和確認密碼不匹配，請重新輸入。,密碼和確認密碼不匹配，請重新輸入。,密码和确认密码不匹配，请重新输入。
+Register.firstname.pre.error1,Please enter your first name.,請輸入您的英文名字。,請輸入您的英文名字。,请输入您的英文名字。
+Register.firstname.pre.error2,You have entered an invalid first name.,您輸入的英文名字無效。,您輸入的英文名字無效。,您输入的英文名字无效。
+Register.lastname.pre.error1,Please enter your last name.,請輸入您的英文姓氏。,請輸入您的英文姓氏。,请输入您的英文姓氏。
+Register.lastname.pre.error2,You have entered an invalid last name.,您輸入的英文姓氏無效。,您輸入的英文姓氏無效。,您输入的英文姓氏无效。
+Register.mobilenumber.pre.error1,Please enter your mobile number.,請輸入您的手機號碼。,請輸入您的手機號碼。,请输入您的手机号码。
+Register.mobilenumber.pre.error2,You have entered an invalid mobile number.,您輸入的手機號碼無效。,您輸入的手機號碼無效。,您输入的手机号码无效。
+Register.mobilenumber.pre.error3,Mobile number has already been used. Please enter another one.,手機號碼已被使用，請輸入另一個。,手機號碼已被使用，請輸入另一個。,手机号码已被使用，请输入另一个。
+Register.mobilenumber.pre.error4,"Your provided mobile number has not been verified yet. Please tap \""Verify\"" to receive a verification code SMS and input the verification code.",您提供的手機號碼尚未通過驗證，請按「驗證」收取驗證碼簡訊並輸入該驗證碼。,您提供的手機號碼尚未通過驗證，請按「驗證」收取驗證碼簡訊並輸入該驗證碼。,您提供的手机号码尚未通过验证，请按「验证」收取验证码短讯并输入该验证码。
+Register.IDdocumet.pre.error1,You have entered an invalid Document ID.,您輸入的身份證明文件號碼無效。,您輸入的身份證明文件號碼無效。,您输入的身份证明文件号码无效。
+Register.IDdocumet.pre.error2,You have entered an invalid HKID Number.,您輸入的香港身份證號碼無效。,您輸入的香港身份證號碼無效。,您输入的香港身份证号码无效。
+Register.IDdocumet.pre.error3,Your HKID number has been registered by another user.,您的香港身份證號碼已被另一用戶註冊。,您的香港身份證號碼已被另一用戶註冊。,您的香港身份证号码已被另一用户注册。
+Register.date.pre.error,Date of Birth is invalid.,出生日期無效。,出生日期無效。,出生日期无效。
+,,,,
+Register.Ver.tips,(Please tap “Verify” to receive a verification code after input.),(輸入後請按「驗證」收取驗證碼),(輸入後請按「驗證」收取驗證碼),(输入后请按「验证」收取验证码)
+Register.password.tips,(The password must have: \n At least 8 characters \n At least 1 mixed-case alphabetic character \n At least 1 numeric character \n At least 1 special character),(密碼必須包含 : \n 至少 8 個字符 \n 至少 1 個大小寫混合的字母字符 \n 至少 1 個數字字符 \n 至少 1 個特殊字符),(密碼必須包含 : \n 至少 8 個字符 \n 至少 1 個大小寫混合的字母字符 \n 至少 1 個數字字符 \n 至少 1 個特殊字符),(密码必须包含 : \n 至少 8 个字符 \n 至少 1 个大小写混合的字母字符 \n 至少 1 个数字字符 \n 至少 1 个特殊字符)
+Register.password.tips.label,The password must have:,密碼必須包含 :,密碼必須包含 :,密码必须包含 :
+Register.lastname.tips,"(Last Name should be as same as it shown on the identity document, e.g. HKID, Passport, etc.)",(輸入的英文姓氏須與身份證明文件上所顯示的相符),(輸入的英文姓氏須與身份證明文件上所顯示的相符),(输入的英文姓氏须与身份证明文件上所显示的相符)
+Register.firstname.tips,"(First Name should be as same as it shown on the identity document, e.g. HKID, Passport, etc.)",(輸入的英文名字須與身份證明文件上所顯示的相符),(輸入的英文名字須與身份證明文件上所顯示的相符),(输入的英文名字须与身份证明文件上所显示的相符)
+,,,,
+Register.emailver.text,"We need to verify your email and a 6 digits verification code was sent to your email, please enter the verification code below.",我們需要驗證您的郵箱，一個6位數的驗證碼已經發送到您的郵箱，請在下方輸入驗證碼。,我們需要驗證您的郵箱，一個6位數的驗證碼已經發送到您的郵箱，請在下方輸入驗證碼。,我们需要验证您的邮箱，一个6位数的验证码已经发送到您的邮箱，请在下方输入验证码。
+Register.emailver.label,Email Verification Code:,電郵驗證碼:,電郵驗證碼:,电邮验证码:
+Register.ver.button1,Verify,驗證,驗證,验证
+Register.ver.button2,Submit,提交,提交,提交
+Register.ver.button3,Resend,重發,重發,重发
+Register.ver.button4,s,秒,秒,秒
+Register.ver.pre.error,Please enter the verification code.,請輸入驗證碼。,請輸入驗證碼。,请输入验证码。
+Register.ver.post.error1,"Failed to connect to server, please try again later.",連接服務器失敗，請稍後重試。,連接服務器失敗，請稍後重試。,连接服务器失败，请稍后重试。
+Register.ver.post.error2,"You have entered an invalid verification code, please try again.",您輸入的驗證碼無效，請重試。,您輸入的驗證碼無效，請重試。,您输入的验证码无效，请重试。
+Register.ver.post.error3,"You have entered an expired verification code, please resend the verification code",您輸入的驗證碼已過期，請重新發送驗證碼。,您輸入的驗證碼已過期，請重新發送驗證碼。,您输入的验证码已过期，请重新发送验证码。
+Register.mobile.ver.text,"We need to verify your mobile number and a 6 digits verification code was sent to your mobile number, please enter the verification code below.",我們需要驗證您的手機號碼，並且已向您的手機號碼發送了一個 6 位數的驗證碼，請在下方輸入驗證碼。,我們需要驗證您的手機號碼，並且已向您的手機號碼發送了一個 6 位數的驗證碼，請在下方輸入驗證碼。,我们需要验证您的手机号码，并且已向您的手机号码发送了一个 6 位数的验证码，请在下方输入验证码。
+Register.mobile.ver.label,SMS Verification Code:,手機短信驗證碼:,手機短信驗證碼:,手机短信验证码:
+,,,,
+RegisterSuccess.text1,Registration Success,成功註冊,成功註冊,成功注册
+RegisterSuccess.text2,You are DSL new user now,您現在是 DSL的新用戶,您現在是 DSL的新用戶,您现在是 DSL的新用户
+RegisterSuccess.button,Return to login page,返回登錄頁面,返回登錄頁面,返回登录页面
+,,,,
+Twostepver.text1,2-Step Verification,兩步驗證,兩步驗證,两步验证
+Twostepver.text2,A 6 digits verification code was just sent to,内含6 位數驗證碼的電郵剛剛發送到,内含6 位數驗證碼的電郵剛剛發送到,内含6 位数验证码的电邮刚刚发送到
+Twostepver.text3,A 6 digits verificaion code was just sent to your mobile number (+852),内含6 位數的驗證碼剛剛發送到 (+852),内含6 位數的驗證碼剛剛發送到 (+852),内含6位数的验证码刚刚发送到  (+852)
+Twostepver.label1,Email Verification Code:,電郵驗證碼:,電郵驗證碼:,电邮验证码:
+Twostepver.label2,SMS Verification Code:,短信驗證碼:,短信驗證碼:,短信验证码:
+,,,,
+Twostepver.button1,Next,繼續,繼續,继续
+Twostepver.button2,Resend,重發,重發,重发
+Twostepver.pre.error,Please enter the verification code.,請輸入驗證碼。,請輸入驗證碼。,请输入验证码。
+Twostepver.post.error1,"You have entered an invalid verification code, please try again.",您輸入的驗證碼無效，請重試。,您輸入的驗證碼無效，請重試。,您输入的验证码无效，请重试。
+Twostepver.post.error2,"You have entered an expired verification code, please resend the verification code.",您輸入的驗證碼已過期，請重新發送驗證碼。,您輸入的驗證碼已過期，請重新發送驗證碼。,您输入的验证码已过期，请重新发送验证码。
+,,,,
+BiometricEnable.text1,Please enable biometric login ,請啟用生物辨識登錄,請啟用生物辨識登錄,请启用生物识别登录
+BiometricEnable.button1,Enable,啟用,啟用,启用
+BiometricEnable.button2,Skip,跳過,跳過,跳过
+BiometricEnable.warning.title,Biometric enrollment,生物辨識,生物辨識,生物识别
+BiometricEnable.warning.text,Old device biometric enrollment will be revoked if biometric enrollment is completed on this device. Are you sure?,如果在此裝置上完成生物辨識註冊，舊裝置生物辨識註冊將被撤銷。 你確認嗎?,如果在此裝置上完成生物辨識註冊，舊裝置生物辨識註冊將被撤銷。 你確認嗎?,如果在此设备上完成生物识别注册，旧设备生物识别注册将被撤销。 你确认嗎?
+BiometricEnable.warning.confirm,Yes,確認,確認,确认
+BiometricEnable.warning.cancel,No,取消,取消,取消
+,,,,
+ForgotPassword.title,User Forgot Password,忘記密碼,忘記密碼,忘记密码
+ForgotPassword.landing.text,Please enter your email to reset password.,請輸入您的電郵以重設密碼。,請輸入您的電郵以重設密碼。,请输入您的电邮以重新设置密码。
+ForgotPassword.landing.label,Email:,電郵:,電郵:,电邮:
+ForgotPassword.landing.button,Continue,繼續,繼續,继续
+ForgotPassword.emailver.text1,Please Enter the Email Verification Code.,請輸入電郵驗證碼。,請輸入電郵驗證碼。,请输入电邮验证码。
+ForgotPassword.emailver.text2,"If you are a registered user, a 6 digits verification code will be sent to",如 閣下為已註冊用戶，一個6位數的驗證碼將會送到,如 閣下為已註冊用戶，一個6位數的驗證碼將會送到,如 阁下为已注册用户，一个6位数的验证码将会送到
+ForgotPassword.smsver.text1,Please enter the SMS verification code.,請輸入手機短信驗證碼。,請輸入手機短信驗證碼。,请输入手机短信验证码。
+ForgotPassword.smsver.text2,A 6 digits verificaion code was just sent to your mobile number (+852),内含6 位數的驗證碼剛剛發送到 (+852),内含6 位數的驗證碼剛剛發送到 (+852),内含6位数的验证码刚刚发送到  (+852)
+ForgotPassword.assign.text,Please Assign a New Password.,請輸入新密碼。,請輸入新密碼。,请输入新密码。
+ForgotPassword.assign.label1,New Password:,新密碼:,新密碼:,新密码:
+ForgotPassword.assign.label2,Confirm Password:,確認新密碼:,確認新密碼:,确认新密码:
+ForgotPassword.assign.button,Next,繼續,繼續,继续
+ForgotPassword.assign.post.error1,Password in history. Please try again.,密碼在歷史記錄中，請重新輸入。,密碼在歷史記錄中，請重新輸入。,密码在历史记录中，请重新输入。
+ForgotPassword.assign.placeholder1,Enter new password,輸入新密碼,輸入新密碼,输入新密码
+ForgotPassword.assign.placeholder2,Enter confirm password,輸入確認新密碼,輸入確認新密碼,输入确认新密码
+ForgotPassword.assign.pre.error1,Please enter your new password.,請輸入您的新密碼。,請輸入您的新密碼。,请输入您的新密码。
+ForgotPassword.success.text,You have reset your password successfully.,您已成功重設密碼。,您已成功重設密碼。,您已成功重设密码。
+ForgotPassword.success.button,Return to login page,返回登錄頁面,返回登錄頁面,返回登录页面
+,,,,
+Twostepver.resend.text1,The verification code could be resent after in,驗證碼可以在,驗證碼可以在,验证码可以在
+Twostepver.resend.text2,seconds,秒後重新發送。,秒後重新發送。,秒后重新发送。
+Twostepver.resend.text3,Don't receive a code?,沒有收到驗證碼？,沒有收到驗證碼？,没有收到验证码？
+Twostepver.resend.text4,Resend,重發,重發,重发
+,,,,
+DeleteAccount.title,User Account Deletion,删除帳戶,删除帳戶,删除帐戶
+DeleteAccount.landing.text,"Account deletion is a permanent and irreversible action. Once the account is deleted, all account registration/logon records and online service applications (either completed or being processed) under the deleted account will no longer be accessible. 
+
+Please thoroughly review and ensure no pending online service applications before proceeding to account deletion action. 
+
+If you have any further inquiries, please contact our dedicated hotline at 8226 1886. ","刪除賬戶是一項無法恢復且永久性的操作。一旦賬戶被刪除，您將無法再查閱於香港警務處的網上服務申請平台的任何註冊/登入資料, 以及過往或正進行中的服務申請記錄。 
+
+請務必於刪除賬戶前，仔細檢查並確保該賬戶內沒有任何進行中的網上服務申請。 
+
+如有任何疑問，請致電我們的熱線電話8226 1886。 ","刪除賬戶是一項無法恢復且永久性的操作。一旦賬戶被刪除，您將無法再查閱於香港警務處的網上服務申請平台的任何註冊/登入資料, 以及過往或正進行中的服務申請記錄。 
+
+請務必於刪除賬戶前，仔細檢查並確保該賬戶內沒有任何進行中的網上服務申請。 
+
+如有任何疑問，請致電我們的熱線電話8226 1886。 ","删除账户是一项无法恢复且永久性的操作。一旦账户被删除，您将无法再查阅于香港警务处的网上服务申请平台的任何注册/登入数据, 以及过往或正进行中的服务申请记录。 
+
+请务必于删除账户前，仔细检查并确保该账户内没有任何进行中的网上服务申请。 
+
+如有任何疑问，请致电我们的热线电话8226 1886。 "
+DeleteAccount.landing.button,Delete Account,删除帳戶,删除帳戶,删除帐戶
+DeleteAccount.confirm.text,I understand the above statement and confirm there are no pending online service applications,我明白以上聲明並確認沒有進行中的網上服務申請,我明白以上聲明並確認沒有進行中的網上服務申請,我明白以上声明并确认没有进行中的网上服务申请
+DeleteAccount.confirm.button1,Yes,確認,確認,确认
+DeleteAccount.confirm.button2,No,取消,取消,取消
+DeleteAccount.success.text1,Deletion success,刪除成功,刪除成功,删除成功
+DeleteAccount.success.text2,"You are signed out and your account has been deleted, if you want to use our service, you need to register again.",您的帳戶已被刪除，如果您想使用我們的服務，您需要重新註冊。,您的帳戶已被刪除，如果您想使用我們的服務，您需要重新註冊。,您的帐户已被删除，如果您想使用我们的服务，您需要重新注册。
+DeleteAccount.success.button,Return to login page,返回登錄頁面,返回登錄頁面,返回登录页面
+,,,,
+ProfileUpdate.title,User Profile Update,用戶資料更新,用戶資料更新,用戶资料更新
+ProfileUpdate.landing.button,Save,儲存,儲存,储存
+ProfileUpdate.landing.cancel,Cancel,取消,取消,取消
+ProfileUpdate.success.text,Your profile has been updated successfully.,您的個人資料已成功更新。 ,您的個人資料已成功更新。,您的个人资料已成功更新。
+ProfileUpdate.warning.title,Update Notice,更新通知,更新通知,更新通知
+ProfileUpdate.warning.text,Some feature / service will not be allowed to access if you do not provide your mobile number.,如果您不提供手機號碼，將不允許訪問某些功能/服務。,如果您不提供手機號碼，將不允許訪問某些功能/服務。,如果您不提供手机号码，将不允许访问某些功能/服务。
+ProfileUpdate.warning.button1,Back,返回,返回,返回
+ProfileUpdate.warning.button2,Continue,繼續,繼續,继续
+ProfileUpdate.emailver.text,"You have just updated your email and a 6 digits verification code was sent to your email, please enter the verification code below.",您剛剛更新了郵箱，一個6位的驗證碼已經發送到您的郵箱，請在下方輸入驗證碼。,您剛剛更新了郵箱，一個6位的驗證碼已經發送到您的郵箱，請在下方輸入驗證碼。,您刚刚更新了邮箱，一个6位的验证码已经发送到您的邮箱，请在下方输入验证码。
+ProfileUpdate.mobile.ver.text,"You have just updated your mobile number and a 6 digits verification code was sent to your mobile number, please enter the verification code below.",您剛剛更新了您的手機號碼，一個6位的驗證碼已經發送到您的手機號碼，請在下方輸入驗證碼。,您剛剛更新了您的手機號碼，一個6位的驗證碼已經發送到您的手機號碼，請在下方輸入驗證碼。,您刚刚更新了您的手机号码，一个6位的验证码已经发送到您的手机号码，请在下方输入验证码。
+,,,,
+ChangePassword.title,User Change Password,用戶更改密碼,用戶更改密碼,用戶更改密码
+ChangePassword.allow.label1,Current Password:,當前密碼:,當前密碼:,当前密码:
+ChangePassword.allow.placeholder1,Enter current password,輸入當前密碼,輸入當前密碼,输入当前密码
+ChangePassword.allow.pre.error1,Please enter your current password.,請輸入當前密碼。,請輸入當前密碼。,请输入当前密码。
+ChangePassword.allow.post.error1,You have entered an incorrect current password.,您輸入的當前密碼不正確。,您輸入的當前密碼不正確。,您输入的当前密码不正确。
+ChangePassword.allow.button,Save,儲存,儲存,储存
+ChangePassword.success.text,You have changed your password successfully.,您已成功更改密碼。,您已成功更改密碼。,您已成功更改密码。
+ChangePassword.notallow.text1,You are not allowed to change password because you have not yet provided your email.,更改密碼不適用。,更改密碼不適用。,更改密码不适用。
+ChangePassword.notallow.text2,Please provide your email by tapping Menu button-> Account management-> Profile update.,請點擊菜單按鈕-> 帳戶管理-> 用戶資料更新，以提供您的電子郵件。,請點擊菜單按鈕-> 帳戶管理-> 用戶資料更新，以提供您的電子郵件。,请点击菜单按钮-> 账户管理-> 用戶资料更新，以提供您的电子邮件。
+,,,,
+LinkUp.title,Account Link Up,帳戶連結,帳戶連結,帐户连结
+LinkUp.notlinkedup.title,Link up “iAM Smart” Account Instruction,連結「智方便」帳戶指引,連結「智方便」帳戶指引,连结「智方便」帐户指引
+LinkUp.notlinkedup.text1,1. Please follow the registration steps shown on the “iAM Smart” website https://www.iamsmart.gov.hk/ if you have not yet registered “iAM Smart” or “iAM Smart”,1. 如尚未登記「智方便」或「智方便+」，請依照「智方便」網站 https://www.iamsmart.gov.hk/ 指示登記,1. 如尚未登記「智方便」或「智方便+」，請依照「智方便」網站 https://www.iamsmart.gov.hk/ 指示登記,1. 如尚未登记「智方便」或「智方便+」，请依照「智方便」网站 https://www.iamsmart.gov.hk/ 指示登记
+LinkUp.notlinkedup.text1a,1. Please follow the registration steps shown on the “iAM Smart” website,1. 如尚未登記「智方便」或「智方便+」，請依照「智方便」網站,1. 如尚未登記「智方便」或「智方便+」，請依照「智方便」網站,1. 如尚未登记「智方便」或「智方便+」，请依照「智方便」网站
+LinkUp.notlinkedup.text1b,if you have not yet registered “iAM Smart” or “iAM Smart”,指示登記,指示登記,指示登记
+LinkUp.notlinkedup.text2,2. Login HKPF Digital Services Logon System with your “iAM Smart” or “iAM Smart” account by tapping the “Login with iAM Smart” button on the login page,2. 於香港警務處數碼服務登入系統的登入頁面點擊『「智方便」登入』按鈕並使用已登記的「智方便」或「智方便+」帳戶登入,2. 於香港警務處數碼服務登入系統的登入頁面點擊『「智方便」登入』按鈕並使用已登記的「智方便」或「智方便+」帳戶登入,2. 于香港警务处数码服务登入系统的登入页面点击『「智方便」登入』按钮并使用已登记的「智方便」或「智方便+」帐户登入
+LinkUp.notlinkedup.text3,3. Tap “Account Link Up” in the menu upon login success,"3. 登入成功後，在選單中點擊 ""帳戶連結”",3. 登入成功後，在選單中點擊 “帳戶連結”,3. 登录成功后，在菜单中点击 “帐户连结”
+LinkUp.linkedup.text1,Please enter your existing HKPF Digital Services Logon account and login. ,請輸入現有的香港警務處數碼服務登入電郵和密碼。,請輸入現有的香港警務處數碼服務登入電郵和密碼。,请输入现有的香港警务处数码服务登入电邮和密码。
+LinkUp.linkedup.text2,"Since your device has already been enrolled, you can do biometric authentication to link-up with your account.",由於您的裝置已經註冊，您可以進行生物辨識驗證以連結您的帳戶。,由於您的裝置已經註冊，您可以進行生物辨識驗證以連結您的帳戶。,由于您的设备已经注册，您可以进行生物识别验证以连接您的账户。
+LinkUp.havelinkedup.text,Your HKPF Digital Services Logon account has already linked up with “iAM Smart” Account.,您的香港警務處數碼服務登入帳戶已連結「智方便」帳戶。,您的香港警務處數碼服務登入帳戶已連結「智方便」帳戶。,您的香港警务处数码服务登入帐户已连结「智方便」帐户。
+LinkUp.linkedup.button,Link,連結,連結,连结
+LinkUp.confirm.button,Link,連結,連結,连结
+LinkUp.confirm.title,Link up Confirmation,連結確認,連結確認,连结确认
+LinkUp.success.text1,Link up success,成功連結,成功連結,成功连结
+LinkUp.success.text2,You are DSL existing user and the DSL account is successfully linked-up. You can log-in with “iAM Smart” now.,已成功與 閣下現有的「數碼服務登入」帳戶連結，日後可用「智方便」登入。,已成功與 閣下現有的「數碼服務登入」帳戶連結，日後可用「智方便」登入。,已成功与 阁下现有的「数码服务登入」帐户连结，日后可用「智方便」登入。
+,,,,
+FIrstimeLinkUp.landing.title,Link up your DSL Account,連結您的「數碼服務登入」帳戶,連結您的「數碼服務登入」帳戶,连接您的「数码服务登入」账户
+FIrstimeLinkUp.landing.text1,"This is your first time login with ""iAM Smart"" to the DSL. If you are already an existing user of DSL, please provide your registered email and password. Then tap [Link] to link-up with your account. Otherwise, please tap [Skip] to continue.",這是您首次透過「智方便」登入香港警務處「數碼服務登入」。若 閣下是「數碼服務登入」的現有用戶，請提供您的註冊電郵及密碼並按【連結】，以便連結您的帳戶。若 閣下並非「數碼服務登入」的現有用戶，請按【略過】繼續完成。,這是您首次透過「智方便」登入香港警務處「數碼服務登入」。若 閣下是「數碼服務登入」的現有用戶，請提供您的註冊電郵及密碼並按【連結】，以便連結您的帳戶。若 閣下並非「數碼服務登入」的現有用戶，請按【略過】繼續完成。,这是您首次透过「智方便」登入香港警务处「数码服务登入」。若 阁下是「数码服务登入」的现有用户，请提供您的注册电邮及密码并点击【连接】，以便连结您的账户。若 阁下并非「数码服务登入」的现有用户，请点击【跳过】继续完成。
+FIrstimeLinkUp.landing.text2,"This is your first time login with “iAM Smart” to the DSL. Since your device has already been enrolled, you can do biometric authentication and tap [Link] to link-up with your account. Otherwise, please tap [Skip] to continue.",這是您首次透過「智方便」登入香港警務處「數碼服務登入」。由於 閣下的設備已經註冊，您可以進行生物辨識驗證，然後點擊 [連結] 來連接您的帳戶。若 閣下不想連接至「數碼服務登入」的現有帳戶，請按【略過】繼續完成。,這是您首次透過「智方便」登入香港警務處「數碼服務登入」。由於 閣下的設備已經註冊，您可以進行生物辨識驗證，然後點擊 [連結] 來連接您的帳戶。若 閣下不想連接至「數碼服務登入」的現有帳戶，請按【略過】繼續完成。,这是您首次透过「智方便」登入香港警务处「数码服务登入」。由于 阁下的设备已经注册，您可以进行生物识别验证，然后点击 [连接] 来连接您的帐户。若 阁下不想连接至「数码服务登入」的现有账户，请点击【跳过】继续完成。
+FIrstimeLinkUp.landing.button1,Link,連結,連結,连结
+FIrstimeLinkUp.landing.button2,Skip,略過,略過,跳过
+FIrstimeLinkUp.error.text1,DSL Account not found. Please try again.,"未能找到帳戶紀錄, 請重試","未能找到帳戶紀錄, 請重試","未能找到帐户纪录, 请重试"
+FIrstimeLinkUp.success.button,OK,繼續,繼續,继续
+,,,,
+NetworkError.text1,Could not connect to Internet or network is unstable,無法連接到網際網路或網絡不穩定,無法連接到網際網路或網絡不穩定,无法连接到互联网或网络不稳定
+NetworkError.text2,Please check your network and retry,請檢查您的網絡並重試,請檢查您的網絡並重試,请检查您的网络并重试
+NetworkError.buttton1,Retry,重試,重試,重试
+NetworkError.buttton2,Exit the application,退出應用程式,退出應用程式,退出应用程序
+,,,,
+OsVersionError.text1,The operation system is not supported by this application,這個應用程式不支援該作業系統,這個應用程式不支援該作業系統,该应用程序不支持该操作系统
+OsVersionError.text2,Please update OS version and retry,請更新作業系統版本後重試,請更新作業系統版本後重試,请更新操作系统版本后重试
+OsVersionError.button1,Retry,重試,重試,重试
+OsVersionError.button2,Exit the application,退出應用程式,退出應用程式,退出应用程序
+,,,,
+JailbreakError.text1,The device is jailbroken,該設備已經越獄,該設備已經越獄,该设备已经越狱
+JailbreakError.text2,Please unjailbreak your device and retry,請解除越獄並重試,請解除越獄並重試,请解除越狱并重试
+JailbreakError.button1,Retry,重試,重試,重试
+JailbreakError.button2,Exit the application,退出應用程式,退出應用程式,退出应用程序
+,,,,
+AppVersionError.text1,Update Available,有更新可用,有更新可用,有更新可用
+AppVersionError.text2,New version of DSL is available. \n Please press “Update” to continue.,最新版本的DSL可用。 \n 請按下「更新」繼續。,最新版本的DSL可用。 \n 請按下「更新」繼續。,最新版本的DSL可用。 \n 请按下「更新」继续。
+AppVersionError.text3,Please press “Update” to continue,請按下「更新」繼續,請按下「更新」繼續,请按下「更新」继续
+AppVersionError.button1,Update,更新,更新,更新
+,,,,
+PickerStyle.button1,Done,完成,完成,完成
+PickerStyle.button2,Clear,清除,清除,清除
+,,,,
+Announcement.alert,Announcement,公告,公告,公告
+,,,,
+RequestSigning.button,Sign with iAM Smart,以智方便簽署,以智方便簽署,以智方便签署
+OpeniAMSmart.button,Open iAM Smart,開啟智方便,開啟智方便,开启智方便

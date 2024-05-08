@@ -1,0 +1,25 @@
+[
+{"label": "--- Occupation ---"},
+{"label": "Agriculture, forestry and fishing"},
+{"label": "Mining and quarrying"},
+{"label": "Manufacturing"},
+{"label": "Electricity and gas supply"},
+{"label": "Water supply, sewerage, waste management and remediation activities"},
+{"label": "Construction"},
+{"label": "Import/export, wholesale and retail trades"},
+{"label": "Transportation, storage, postal and courier services"},
+{"label": "Accommodation and food service activities"},
+{"label": "Information and communications"},
+{"label": "Financial and insurance activities"},
+{"label": "Real estate activities"},
+{"label": "Professional, scientific and technical activities"},
+{"label": "Administrative and support service activities"},
+{"label": "Public administration"},
+{"label": "Education"},
+{"label": "Human health and social work activities"},
+{"label": "Arts, entertainment and recreation"},
+{"label": "Other service activities"},
+{"label": "Work activities within domestic households"},
+{"label": "Activities of extraterritorial organisations and bodies"}
+]
+

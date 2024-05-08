@@ -1,0 +1,36 @@
+/* 
+  Localizable.strings
+  dsl
+
+  Created by chuang chin yuen on 22/1/2024.
+  
+*/
+
+"Header.HKPF" = "香港警务处";
+"Header.DigitalServicesLogon" = "数码服务登入";
+"DigitalServicesLogon" = "香港警务处数码服务登入" ;
+"Login" = "登入" ;
+"YourEmail" = "你的电邮地址";
+"Password" = "密码";
+"Register" = "新用户注册" ;
+"ForgotPassword" = "忘记密码" ;
+"YouCanAlsoLoginWith" = "你也可以透过以下方式登入";
+"MoreInfo" = "了解更多";
+"Biometric" = "生物辨识";
+"iamSmart" = "智方便";
+"Enquiry" = "查询";
+
+"Menu" = "选单";
+
+"Setting" = "设定";
+"Important Notices" = "重要告示";
+"Privacy Policy" = "私隐政策";
+"FAQs" = "常见问题";
+"Accessibility Design" = "无障碍设计";
+"About This App" = "关于本程式";
+
+"Male" = "男";
+"Female" = "女";
+
+
+"The Mainland of China" = "中国内地";

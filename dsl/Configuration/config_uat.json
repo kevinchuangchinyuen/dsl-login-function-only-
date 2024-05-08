@@ -1,0 +1,15 @@
+{
+    "issuer": "https://login-uat.police.gov.hk/realms/realm01",
+    "authorizationEndpoint": "https://login-uat.police.gov.hk/realms/realm01/protocol/openid-connect/auth",
+    "tokenEndpoint": "https://login-uat.police.gov.hk/realms/realm01/protocol/openid-connect/token",
+    "userInfoEndpoint": "https://login-uat.police.gov.hk/realms/realm01/protocol/openid-connect/userinfo",
+    "endSessionEndpoint": "https://login-uat.police.gov.hk/realms/realm01/protocol/openid-connect/logout",
+    "clientID": "sso-mobile",
+    "redirectUri": "sso-mobile://callback",
+    "postLogoutRedirectUri": "+",
+    "scope": "openid",
+    "offlineScope": "openid offline_access",
+    "clientSecret" : "E3Z09jkhLLc5I6UCEl99aRHClsvCjTQF",
+    "umsEndpoint": "https://login-uat.police.gov.hk",
+    "policeIP": "https://login-uat.police.gov.hk"
+}

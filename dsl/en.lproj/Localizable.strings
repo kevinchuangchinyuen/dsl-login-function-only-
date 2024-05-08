@@ -1,0 +1,36 @@
+/* 
+  Localizable.strings
+  dsl
+
+  Created by chuang chin yuen on 22/1/2024.
+  
+*/
+
+"Header.HKPF" = "Hong Kong Police Force";
+"Header.DigitalServicesLogon" = "Digital Services Logon";
+"DigitalServicesLogon" = "HKPF Digital Services Logon" ;
+"Login" = "Login" ;
+"YourEmail" = "Your Email";
+"Password" = "Password";
+"Register" = "Register" ;
+"ForgotPassword" = "Forgot Password" ;
+"YouCanAlsoLoginWith" = "You can also login with";
+"MoreInfo" = "More Info";
+"Biometric" = "Biometric";
+"iamSmart" = "iAM Smart";
+"Enquiry" = "Enquiry";
+
+"Menu" = "Menu";
+
+"Setting" = "Setting";
+"Important Notices" = "Important Notices";
+"Privacy Policy" = "Privacy Policy";
+"FAQs" = "FAQs";
+"Accessibility Design" = "Accessibility Design";
+"About This App" = "About This App";
+
+"Male" = "Male";
+"Female" = "Female";
+
+"The Mainland of China" = "The Mainland of China";
+

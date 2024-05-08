@@ -1,0 +1,20 @@
+[
+  {"label": "--- Document Type ---"},
+  {"label": "HKID"},
+  {"label": "Birth Certificate"},
+  {"label": "Certificate of Entitlement to the Right of Abode in the HK SAR"},
+  {"label": "Certificate of Identity"},
+  {"label": "Chinese Fisherman Certificate of Permit"},
+  {"label": "Chinese Identity Card"},
+  {"label": "Chinese One-way Entry Permit"},
+  {"label": "Chinese Travel Permit"},
+  {"label": "Chinese Two-way Entry Permit"},
+  {"label": "Chinese Two-way Entry Permit(Taiwan Travel)"},
+  {"label": "Hong Kong Re-Entry Permit"},
+  {"label": "Macau Identity Card"},
+  {"label": "Passport"},
+  {"label": "People's Liberation Army Identity Card"},
+  {"label": "Recognizance"},
+  {"label": "VALID-PRC DRIVERS"},
+  {"label": "Vietnamese Refugee Card"}
+]

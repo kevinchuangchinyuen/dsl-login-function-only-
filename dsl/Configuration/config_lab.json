@@ -1,0 +1,15 @@
+{
+    "issuer": "https://192.168.101.63/realms/realm01",
+    "authorizationEndpoint": "https://192.168.101.63/realms/realm01/protocol/openid-connect/auth",
+    "tokenEndpoint": "https://192.168.101.60:8443/realms/realm01/protocol/openid-connect/token",
+    "userInfoEndpoint": "https://192.168.101.60:8443/realms/realm01/protocol/openid-connect/userinfo",
+    "endSessionEndpoint": "https://192.168.101.63/realms/realm01/protocol/openid-connect/logout",
+    "clientID": "sso-mobile",
+    "redirectUri": "sso-mobile://callback",
+    "postLogoutRedirectUri": "+",
+    "scope": "openid",
+    "offlineScope": "openid offline_access",
+    "clientSecret" : "VWtDX91txbaNkWK71NL3HbPKFGdijHmC",
+    "umsEndpoint": "https://192.168.101.55:9443",
+    "policeIP": "https://192.168.101.63"
+}
