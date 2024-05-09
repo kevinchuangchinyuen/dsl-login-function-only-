@@ -79,21 +79,6 @@ struct UnauthenticatedMenuView: View {
                                 .smallTitleStyle()
                         }
                         .listRowBackground(Color.clear)
-                        NavigationLink(destination: FootInfoView(number: 1, presentationMode: self.presentationMode)){
-                            Text("Important Notices".localized(localizationManager.language))
-                                .smallTitleStyle()
-                        }
-                        .listRowBackground(Color.clear)
-                        NavigationLink(destination: FootInfoView(number: 2, presentationMode: self.presentationMode)){
-                            Text("Privacy Policy".localized(localizationManager.language))
-                                .smallTitleStyle()
-                        }
-                        .listRowBackground(Color.clear)
-                        NavigationLink(destination: FootInfoView(number: 3, presentationMode: self.presentationMode)){
-                            Text("FAQs".localized(localizationManager.language))
-                                .smallTitleStyle()
-                        }
-                        .listRowBackground(Color.clear)
                         NavigationLink(destination: AccessibilityDesignView(presentationMode: self.presentationMode)){
                             Text("Accessibility Design".localized(localizationManager.language))
                                 .smallTitleStyle()
@@ -160,110 +145,8 @@ struct AuthenticatedMenuView: View {
                     Spacer().frame(height: 70)
                     
                     List{
-//                        Button(action: {
-//                            if(currentState == .Home){
-//                                let placeholderState = currentState
-//                                currentState = .Blank
-//                                DispatchQueue.main.async {
-//                                    currentState = placeholderState
-//                                }
-//                            }
-//                            else{
-//                                currentState = .Home
-//                            }
-//                        }){
-//                            Text("Home".localized(localizationManager.language))
-//                                .smallTitleStyle()
-//                        }
-//                        .listRowBackground(Color.clear)
-//                        Button(action: {
-//                            //self.presentationMode.wrappedValue.dismiss()
-//                        }){
-//                            Text("Account Management".localized(localizationManager.language))
-//                                .smallTitleStyle()
-//                        }
-//                        .listRowBackground(Color.clear)
-//                        Button(action: {
-//                            if(currentState == .ProfileUpdate){
-//                                let placeholderState = currentState
-//                                currentState = .Blank
-//                                DispatchQueue.main.async {
-//                                    currentState = placeholderState
-//                                }
-//                            }
-//                            else{
-//                                currentState = .ProfileUpdate
-//                            }
-//                        }){
-//                            Text("Profile Update".localized(localizationManager.language))
-//                                .contentStyle()
-//                        }
-//                        .listRowBackground(Color.clear)
-//                        Button(action: {
-//                            if(currentState == .ChangePassword){
-//                                let placeholderState = currentState
-//                                currentState = .Blank
-//                                DispatchQueue.main.async {
-//                                    currentState = placeholderState
-//                                }
-//                            }
-//                            else{
-//                                currentState = .ChangePassword
-//                            }
-//                        }){
-//                            Text("Change Password".localized(localizationManager.language))
-//                                .contentStyle()
-//                        }
-//                        .listRowBackground(Color.clear)
-//                        Button(action: {
-//                            if(currentState == .DeleteAccount){
-//                                let placeholderState = currentState
-//                                currentState = .Blank
-//                                DispatchQueue.main.async {
-//                                    currentState = placeholderState
-//                                }
-//                            }
-//                            else{
-//                                currentState = .DeleteAccount
-//                            }
-//                        }){
-//                            Text("Account Deletion".localized(localizationManager.language))
-//                                .contentStyle()
-//                        }
-//                        .listRowBackground(Color.clear)
-//                        Button(action: {
-//                            if(currentState == .LinkUpAccount){
-//                                let placeholderState = currentState
-//                                currentState = .Blank
-//                                DispatchQueue.main.async {
-//                                    currentState = placeholderState
-//                                }
-//                            }
-//                            else{
-//                                currentState = .LinkUpAccount
-//                            }
-//                        }){
-//                            Text("Account Link Up".localized(localizationManager.language))
-//                                .contentStyle()
-//                        }
-//                        .listRowBackground(Color.clear)
                         NavigationLink(destination: UnauthenticatedSettingView(presentationMode: self.presentationMode)){
                             Text("Setting".localized(localizationManager.language))
-                                .smallTitleStyle()
-                        }
-                        .listRowBackground(Color.clear)
-                        NavigationLink(destination: FootInfoView(number: 1, presentationMode: self.presentationMode)){
-                            Text("Important Notices".localized(localizationManager.language))
-                                .smallTitleStyle()
-                        }
-                        .listRowBackground(Color.clear)
-                        NavigationLink(destination: FootInfoView(number: 2, presentationMode: self.presentationMode)){
-                            Text("Privacy Policy".localized(localizationManager.language))
-                                .smallTitleStyle()
-                        }
-                        .listRowBackground(Color.clear)
-                        NavigationLink(destination: FootInfoView(number: 3, presentationMode: self.presentationMode)){
-                            Text("FAQs".localized(localizationManager.language))
                                 .smallTitleStyle()
                         }
                         .listRowBackground(Color.clear)

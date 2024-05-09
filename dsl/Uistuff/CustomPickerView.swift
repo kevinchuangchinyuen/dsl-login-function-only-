@@ -355,9 +355,3 @@ struct CustomPickerTextField: UIViewRepresentable {
         }
     }
 }
-
-//extension CustomPickerTextField: UITextFieldDelegate {
-//    func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
-//        return false // Disallow any changes to the text
-//    }
-//}

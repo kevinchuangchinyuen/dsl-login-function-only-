@@ -16,11 +16,7 @@ class UnauthenticatedViewService: NSObject , ObservableObject {
     internal let config: ApplicationConfig
     internal let state: ApplicationStateManager
     private let appauth: AppAuthHandler
-    
-    private var registrationViewService: RegistrationViewService?
-    
-    private var forgotPasswordViewService: ForgotPasswordViewService?
-    
+        
     private var iamsmartService: IamsmartService?
  
     @Published var someProperty: String = ""
@@ -107,37 +103,7 @@ class UnauthenticatedViewService: NSObject , ObservableObject {
 //        }
 //        return "unknown"
 //    }
-    
-    func getRegistrationViewService() -> RegistrationViewService {
         
-        if self.registrationViewService == nil {
-            self.registrationViewService = RegistrationViewService(
-                config: self.config,
-                state: self.state,
-                appauth: self.appauth,
-                onLoading: self.onLoading,
-                offLoading: self.offLoading,
-                onFirstTimeLogin: self.onFirstTimeLogin)
-        }
-
-        return self.registrationViewService!
-    }
-    
-    func getForgotPasswordService() -> ForgotPasswordViewService {
-        
-        if self.forgotPasswordViewService == nil {
-            self.forgotPasswordViewService = ForgotPasswordViewService(
-                config: self.config,
-                state: self.state,
-                appauth: self.appauth,
-                onLoading: self.onLoading,
-                offLoading: self.offLoading,
-                onFirstTimeLogin: self.onFirstTimeLogin)
-        }
-
-        return self.forgotPasswordViewService!
-    }
-    
     func getIamsmartService() -> IamsmartService {
         
         if self.iamsmartService == nil {
@@ -501,54 +467,7 @@ class UnauthenticatedViewService: NSObject , ObservableObject {
         //            }
         //        }
     }
-    
-//    func getTokenByRefresh1(refreshToken: String) -> Int{
-//        self.onLoading()
-//        
-//        let clientSecret = self.config.clientSecret
-//        let clientID = self.config.clientID
-//        
-//        Task {
-//
-//            do {
-//                
-//               let metadata = try await self.appauth.fetchMetadata()
-//
-//                let tokenResponse = try await self.appauth.refreshAccessToken(
-//                    metadata: metadata,
-//                    clientID: clientID,
-//                    clientSecret: clientSecret,
-//                    refreshToken: refreshToken)
-//                
-//                await MainActor.run {
-//                    //print("Hello")
-//                    if tokenResponse != nil{
-//                        self.offLoading()
-//                        createBiometricLoginSession(idToken: tokenResponse!.idToken!)
-//                        return 0
-//                    }
-//                    else{
-//                        self.offLoading()
-//                        return 1
-//                    }
-//                }
-//            
-//                
-//            } catch {
-//                
-//                await MainActor.run {
-//                    
-//                    let appError = error as? ApplicationError
-//                    if appError != nil {
-//                        self.offLoading()
-//                        print(appError!)
-//                    }
-//                    return -1
-//                }
-//            }
-//        }
-//    }
-    
+        
     func getTokenByRefresh(refreshToken: String, completion: @escaping (Int) -> Void) {
         self.onLoading()
         

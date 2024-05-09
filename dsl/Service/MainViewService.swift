@@ -10,7 +10,6 @@ import Network
 import Alamofire
 import SwiftUI
 
-
 struct Content: Decodable {
     let content_en: String
     let content_zh_hk: String
@@ -19,7 +18,6 @@ struct Content: Decodable {
 
 class MainViewService: ObservableObject {
 
-    
     @Published var isNetworkAvailable = true
     @Published var isSupportediOSVersion = true
     @Published var isNotJailbroken = true

@@ -22,13 +22,7 @@ class AuthenticatedViewService:  ObservableObject{
     internal let appauth: AppAuthHandler
     
     private var codeValue: String? = nil
-    
-    private var profileUpdateViewService: ProfileUpdateViewService?
-    
-    private var changePasswordViewService: ChangePasswordViewService?
-    
-    private var linkUpService: LinkUpService?
-    
+            
     private let onLoggedOut: (() -> Void)
     
     internal let session: Session
@@ -107,49 +101,7 @@ class AuthenticatedViewService:  ObservableObject{
         self.biometricError = false
         self.biometricEnabled = false
     }
-    
-    func getProfileUpdateViewService() -> ProfileUpdateViewService{
-        if self.profileUpdateViewService == nil {
-            self.profileUpdateViewService = ProfileUpdateViewService(
-                config: self.config,
-                state: self.state,
-                appauth: self.appauth,
-                onLoggedOut: self.onLoggedOut, 
-                onLoading: self.onLoading,
-                offLoading: self.offLoading
-            )
-        }
-        return self.profileUpdateViewService!
-    }
-    
-    func getChangePasswordViewService() -> ChangePasswordViewService{
-        if self.changePasswordViewService == nil {
-            self.changePasswordViewService = ChangePasswordViewService(
-                config: self.config,
-                state: self.state,
-                appauth: self.appauth,
-                onLoggedOut: self.onLoggedOut,
-                onLoading: self.onLoading,
-                offLoading: self.offLoading
-            )
-        }
-        return self.changePasswordViewService!
-    }
-    
-    func getLinkUpService() -> LinkUpService{
-        if self.linkUpService == nil {
-            self.linkUpService = LinkUpService(
-                config: self.config,
-                state: self.state,
-                appauth: self.appauth,
-                onLoggedOut: self.onLoggedOut,
-                onLoading: self.onLoading,
-                offLoading: self.offLoading
-            )
-        }
-        return self.linkUpService!
-    }
-
+        
     
 //    func getIsThirdPartyLogin() -> Bool {
 //        return self.state.isUsingThirdPartyLogin

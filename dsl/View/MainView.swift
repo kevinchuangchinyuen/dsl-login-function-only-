@@ -40,48 +40,8 @@ struct MainView: View {
                 }
                 else {
                     AuthenticatedMainView(service: service.getAuthenticatedViewService())
-                    //                Button(action: {
-                    //                    print(self.service.state.getAuthState.isAuthorized)
-                    //                }) {
-                    //                    Text("Hello")
-                    //                        .foregroundColor(Color.ButtonBlue)
-                    //                        .contentStyle()
-                    //                }
                 }
             }
-//            .alert("Announcement.alert".localized(localizationManager.language), isPresented: $isShowingAnnouncement) {
-//                Button("FIrstimeLinkUp.success.button".localized(localizationManager.language), role: .none) {
-//                    
-//                }
-//            } message: {
-//                if Locale.preferredLanguages.first == "en"{
-//                    Text(contentEngString)
-//                        .multilineTextAlignment(.leading)
-//                }
-//                else if Locale.preferredLanguages.first == "zh-HK"{
-//                    Text(contentZHTString)
-//                }
-//                else if Locale.preferredLanguages.first == "zh-Hant"{
-//                    Text(contentZHTString)
-//                }
-//                else if Locale.preferredLanguages.first == "zh-Hans"{
-//                    Text(contentZHSString)
-//                }
-//            }
-//            .onAppear {
-//                self.service.getFooterInfo(number: 4){content in
-//                    if content != nil{
-//                        self.content = content
-//                        self.contentEngString = content.content_en.htmlToAttributedString!.string
-//                        self.contentZHSString = content.content_zh_cn.htmlToAttributedString!.string
-//                        self.contentZHTString = content.content_zh_hk.htmlToAttributedString!.string
-//                        isShowingAnnouncement = true
-//                    }
-//                    else{
-//                        isShowingAnnouncement = false
-//                    }
-//                }
-//            }
 
             if self.service.isLoading{
                 ProgressView()

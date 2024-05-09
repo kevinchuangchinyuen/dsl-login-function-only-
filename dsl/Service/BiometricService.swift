@@ -10,58 +10,6 @@ import SwiftKeychainWrapper
 import SwiftJWT
 import LocalAuthentication
 
-enum OldKeychainStorage{
-    
-    static let key = "credentials"
-    
-    static func getCredentials() -> Credentials? {
-        if let myCredentialsString = KeychainWrapper.standard.string(forKey: Self.key){
-            print("encoded string: \n" + myCredentialsString)
-            return Credentials.decode(myCredentialsString)
-        }
-        else{
-            return nil
-        }
-    }
-
-    static func saveCredentials(_ credentials: Credentials) -> Bool {
-        if KeychainWrapper.standard.set(credentials.encoded(), forKey: self.key) {
-            return true
-        }
-        else {
-            return false
-        }
-    }
-    
-    static func deleteCredentials() -> Bool {
-        return KeychainWrapper.standard.removeObject(forKey: self.key)
-    }
-    
-    static func hasCredentials() -> Bool {
-        return KeychainWrapper.standard.hasValue(forKey: self.key)
-    }
-    
-    static func decodeRFToken() -> OfflineTokenClaims? {
-        guard let credentials = getCredentials() else {
-            return nil
-        }
-        
-        do {
-            let jwt = try JWT<OfflineTokenClaims>(jwtString: credentials.refreshToken)
-            return jwt.claims
-        } catch {
-            print(error)
-            return nil
-        }
-    }
-    
-    private static var accessControl: SecAccessControl {
-        return SecAccessControlCreateWithFlags(nil, kSecAttrAccessibleWhenPasscodeSetThisDeviceOnly, .biometryCurrentSet, nil)!
-    }
-
-}
-
-
 enum KeychainStorage{
             
     static func saveCredentials(_ credentials: Credentials) throws {
@@ -106,30 +54,7 @@ enum KeychainStorage{
         let status = SecItemAdd(query as CFDictionary, nil)
         guard status == errSecSuccess else { throw KeychainError(status: status) }
     }
-    
-//    static func getCredentials() throws -> Credentials {
-//      //  context.localizedReason = "Access your password on the keychain"
-//        let query: [String: Any] = [kSecClass as String: kSecClassInternetPassword,
-//                                    kSecAttrAccount as String: "token",
-//                                    kSecAttrServer as String: "dsl",
-//                                    kSecMatchLimit as String: kSecMatchLimitOne,
-//                                    kSecReturnAttributes as String: true,
-//                                    kSecReturnData as String: true]
-//
-//        var item: CFTypeRef?
-//        let status = SecItemCopyMatching(query as CFDictionary, &item)
-//        guard status == errSecSuccess else { throw KeychainError(status: status) }
-//
-//        guard let existingItem = item as? [String: Any],
-//            let refreshTokenData = existingItem[kSecValueData as String] as? Data,
-//            let refreshToken = String(data: refreshTokenData, encoding: String.Encoding.utf8)
-//            else {
-//                throw KeychainError(status: errSecInternalError)
-//        }
-//
-//        return Credentials(refreshToken: refreshToken)
-//    }
-    
+        
     static func getCredentials() throws -> Credentials {
         let query: [String: Any] = [
             kSecClass as String: kSecClassInternetPassword,
@@ -207,11 +132,7 @@ enum KeychainStorage{
         let status = SecItemDelete(query as CFDictionary)
         guard status == errSecSuccess else { throw KeychainError(status: status) }
     }
-    
-//    static func hasCredentials() -> Bool {
-//        return KeychainWrapper.standard.hasValue(forKey: self.key)
-//    }
-    
+        
     static func decodeRFToken() -> OfflineTokenClaims? {
         do {
             let credentials = try getCredentials()
@@ -257,24 +178,6 @@ struct KeychainError: Error {
         return SecCopyErrorMessageString(status, nil) as String? ?? "Unknown error."
     }
 }
-
-//enum KeychainError: Error {
-//    case itemNotFound
-//    case accessDenied
-//    case biometricAuthFailed
-//    
-//    var localizedDescription: String {
-//        switch self {
-//        case .itemNotFound:
-//            return "The specified item could not be found in the keychain."
-//        case .accessDenied:
-//            return "Access to the keychain item is denied."
-//        case .biometricAuthFailed:
-//            return "Biometric authentication failed."
-//        }
-//    }
-//}
-
 
 struct CredentialsInfo: Codable {
     var sub: String = ""

@@ -10,13 +10,7 @@ import SwiftUI
 
 
 enum AuthenticatedState{
-    case BiometricEnable
-    case FirstTimeLogin
     case Home
-    case ProfileUpdate
-    case ChangePassword
-    case DeleteAccount
-    case LinkUpAccount
     case Blank
 }
 
@@ -26,21 +20,10 @@ struct AuthenticatedMainView: View {
 
     @State private var currentState: AuthenticatedState = .Home
     
-//    @State var presentAlert = false
-    
     @State var timer = Timer.publish(every: 60, on: .current, in: .common).autoconnect()
-
-    //@State private var inactivityTimer: Timer?
     
     var body: some View {
-        //CustomNavigationView{
         viewForState(currentState)
-        //            .alert("Foo", isPresented: $presentAlert) {
-        //                Button("OK") {}
-        //            }
-        //.navigationBarHidden(true)
-        
-        //.navigationBarHidden(true)
             .onAppear {
                 self.service.processTokens()
                 self.currentState = getCurrentState()
@@ -50,36 +33,17 @@ struct AuthenticatedMainView: View {
                 timer = Timer.publish (every: TimeInterval(self.service.calculateLifetime()), on: .current, in: .common).autoconnect()
             }
             .onReceive(timer) { _ in
-                //                presentAlert = true
                 print("timeout")
                 timer.upstream.connect().cancel()
                 self.service.startLogout()
             }
-//         user did something!
-//            .onReceive(NotificationCenter.default.publisher(for: .init("UserActivity")), perform: { _ in
-//                timer.upstream.connect().cancel()
-//                timer = Timer.publish (every: 60*60, on: .current, in: .common).autoconnect()
-//            })
-        
     }
     
     @ViewBuilder
     private func viewForState(_ state: AuthenticatedState) -> some View {
         switch state {
-        case .BiometricEnable:
-            BiometricEnableView(service: self.service,currentState: self.$currentState)
-        case .FirstTimeLogin:
-            FirstTimeLoginLinkUpMainView(service: self.service, currentState: self.$currentState)
         case .Home:
             HomeView(service: self.service,currentState: self.$currentState)
-        case .ProfileUpdate:
-            ProfileUpdateMainView(service: self.service,currentState: self.$currentState)
-        case .ChangePassword:
-            ChangePasswordMainView(service: self.service,currentState: self.$currentState, changePasswordService: self.service.getChangePasswordViewService())
-        case .DeleteAccount:
-            DeleteAccountMainView(service: self.service,currentState: self.$currentState)
-        case .LinkUpAccount:
-            LinkUpMainView(service: self.service,currentState: self.$currentState)
         case .Blank:
             ZStack{
                 Color.BackgroundBlue

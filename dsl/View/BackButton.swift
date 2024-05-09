@@ -7,30 +7,6 @@
 
 import SwiftUI
 
-//struct BackButton: View {
-//    let dismiss: DismissAction
-//    
-//    init(dismiss: DismissAction) {
-//        self.dismiss = dismiss
-//    }
-//
-//    var body: some View {
-//        
-//        Button(action: {
-//            dismiss()
-//        })
-//        {
-//            ZStack(alignment: .leading) {
-//                Image("BackIcon")
-//            }
-////            .padding(
-////                EdgeInsets(top: 2.50, leading: 25 , bottom: 2.50, trailing: 0)
-////            )
-//        }
-//        .frame(width: 30, height: 30)
-//    }
-//}
-
 struct BackButton: View {
     var presentationMode: Binding<PresentationMode>
     

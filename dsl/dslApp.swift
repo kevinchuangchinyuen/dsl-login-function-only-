@@ -30,7 +30,7 @@ struct dslApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ValidationView(service: self.mainService)
+            MainView(service: self.mainService)
                 .environmentObject(LocalizationManager.shared)
         }
     }
